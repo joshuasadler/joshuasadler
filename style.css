@@ -40,7 +40,7 @@ nav a:hover {
 .hero {
     text-align: center;
     padding: 3rem 1rem;
-    background-color: #008080; /* Teal */
+    background-color: #008080;
     color: #ffffff;
 }
 
@@ -49,12 +49,11 @@ nav a:hover {
     max-width: 720px;
     height: 405px;
     margin-top: 1rem;
-    border-radius: 10px;
 }
 
 .portfolio {
     padding: 2rem 1rem;
-    background-color: #CC8400; /* Mustard Orange */
+    background-color: #CC8400;
     text-align: center;
     color: #ffffff;
 }
@@ -69,7 +68,6 @@ nav a:hover {
 .video-grid iframe {
     width: 100%;
     height: 180px;
-    border-radius: 8px;
 }
 
 .about, .contact {
