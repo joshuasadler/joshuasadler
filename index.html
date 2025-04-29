@@ -1,121 +1,56 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Joshua Sadler | Video Editor</title>
-  <style>
-    * {
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
-    }
-
-    body {
-      font-family: 'Segoe UI', sans-serif;
-      background-color: #1c1c1e;
-      color: #ffffff;
-      line-height: 1.6;
-    }
-
-    header {
-      background: #000000;
-      padding: 2rem;
-      text-align: center;
-    }
-
-    header h1 {
-      font-size: 2.5rem;
-    }
-
-    header p {
-      font-size: 1.2rem;
-      color: #ccc;
-    }
-
-    section {
-      padding: 2rem;
-      max-width: 1000px;
-      margin: auto;
-    }
-
-    .about, .portfolio, .contact {
-      margin-top: 2rem;
-    }
-
-    .portfolio-items {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 1rem;
-      margin-top: 1rem;
-    }
-
-    .portfolio-item {
-      background: #2c2c2e;
-      padding: 1rem;
-      flex: 1 1 300px;
-      border-radius: 8px;
-    }
-
-    .portfolio-item img {
-      width: 100%;
-      border-radius: 5px;
-    }
-
-    footer {
-      text-align: center;
-      padding: 1rem;
-      background: #000;
-      color: #888;
-      margin-top: 3rem;
-    }
-
-    a {
-      color: #ff3e00;
-      text-decoration: none;
-    }
-
-    a:hover {
-      text-decoration: underline;
-    }
-  </style>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Video Editor Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css" />
 </head>
 <body>
+    <header>
+        <h1>Your Name</h1>
+        <nav>
+            <a href="#work">Work</a>
+            <a href="#about">About</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
 
-  <header>
-    <h1>Joshua Sadler</h1>
-    <p>Professional Video Editor & Storyteller</p>
-  </header>
+    <section class="hero">
+        <h2>Your Headline Goes Here</h2>
+        <p>Your short description goes here.</p>
+        <div class="video-container">
+            <iframe src="https://www.youtube.com/embed/YOUR_MAIN_SHOWREEL" frameborder="0" allowfullscreen></iframe>
+        </div>
+    </section>
 
-  <section class="about">
-    <h2>About Me</h2>
-    <p>I'm a creative video editor with a passion for crafting compelling narratives, whether it's for film, YouTube, or commercial content. With years of experience in Adobe Premiere Pro, DaVinci Resolve, and After Effects, I bring stories to life through visuals.</p>
-  </section>
+    <section id="work" class="portfolio">
+        <h2>My Work</h2>
+        <div class="video-grid">
+            <!-- Replace the YouTube video URLs -->
+            <iframe src="https://www.youtube.com/embed/VIDEO_1" frameborder="0" allowfullscreen></iframe>
+            <iframe src="https://www.youtube.com/embed/VIDEO_2" frameborder="0" allowfullscreen></iframe>
+            <iframe src="https://www.youtube.com/embed/VIDEO_3" frameborder="0" allowfullscreen></iframe>
+            <iframe src="https://www.youtube.com/embed/VIDEO_4" frameborder="0" allowfullscreen></iframe>
+            <iframe src="https://www.youtube.com/embed/VIDEO_5" frameborder="0" allowfullscreen></iframe>
+            <iframe src="https://www.youtube.com/embed/VIDEO_6" frameborder="0" allowfullscreen></iframe>
+        </div>
+    </section>
 
-  <section class="portfolio">
-    <h2>Portfolio</h2>
-    <div class="portfolio-items">
-      <div class="portfolio-item">
-        <img src="https://via.placeholder.com/400x200" alt="Video Thumbnail">
-        <p><strong>Project Title 1</strong><br/>A short description of the project or a link to the video.</p>
-      </div>
-      <div class="portfolio-item">
-        <img src="https://via.placeholder.com/400x200" alt="Video Thumbnail">
-        <p><strong>Project Title 2</strong><br/>Another description with context or style choices.</p>
-      </div>
-      <!-- Add more portfolio items as needed -->
-    </div>
-  </section>
+    <section id="about" class="about">
+        <h2>About Me</h2>
+        <p>This is a longer section about your background, editing style, clients you've worked with, etc.</p>
+    </section>
 
-  <section class="contact">
-    <h2>Contact</h2>
-    <p>Email: <a href="mailto:you@example.com">you@example.com</a></p>
-    <p>Instagram: <a href="https://instagram.com/yourhandle" target="_blank">@yourhandle</a></p>
-  </section>
+    <section id="contact" class="contact">
+        <h2>Contact</h2>
+        <p>Email: your.email@example.com</p>
+        <p>Socials: <a href="#">Twitter</a>, <a href="#">Instagram</a>, <a href="#">YouTube</a></p>
+    </section>
 
-  <footer>
-    <p>&copy; 2025 Joshua Sadler</p>
-  </footer>
-
+    <footer>
+        <p>&copy; 2025 Your Name</p>
+    </footer>
 </body>
 </html>
