@@ -2,22 +2,120 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Welcome to My Site</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Joshua Sadler | Video Editor</title>
   <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
     body {
-      font-family: Arial, sans-serif;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #1c1c1e;
+      color: #ffffff;
+      line-height: 1.6;
+    }
+
+    header {
+      background: #000000;
       padding: 2rem;
-      background-color: #f4f4f4;
       text-align: center;
     }
-    h1 {
-      color: #333;
+
+    header h1 {
+      font-size: 2.5rem;
+    }
+
+    header p {
+      font-size: 1.2rem;
+      color: #ccc;
+    }
+
+    section {
+      padding: 2rem;
+      max-width: 1000px;
+      margin: auto;
+    }
+
+    .about, .portfolio, .contact {
+      margin-top: 2rem;
+    }
+
+    .portfolio-items {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1rem;
+      margin-top: 1rem;
+    }
+
+    .portfolio-item {
+      background: #2c2c2e;
+      padding: 1rem;
+      flex: 1 1 300px;
+      border-radius: 8px;
+    }
+
+    .portfolio-item img {
+      width: 100%;
+      border-radius: 5px;
+    }
+
+    footer {
+      text-align: center;
+      padding: 1rem;
+      background: #000;
+      color: #888;
+      margin-top: 3rem;
+    }
+
+    a {
+      color: #ff3e00;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
     }
   </style>
 </head>
 <body>
-  <h1>Hello from Joshua!</h1>
-  <p>This is a test site hosted with GitHub Pages.</p>
+
+  <header>
+    <h1>Joshua Sadler</h1>
+    <p>Professional Video Editor & Storyteller</p>
+  </header>
+
+  <section class="about">
+    <h2>About Me</h2>
+    <p>I'm a creative video editor with a passion for crafting compelling narratives, whether it's for film, YouTube, or commercial content. With years of experience in Adobe Premiere Pro, DaVinci Resolve, and After Effects, I bring stories to life through visuals.</p>
+  </section>
+
+  <section class="portfolio">
+    <h2>Portfolio</h2>
+    <div class="portfolio-items">
+      <div class="portfolio-item">
+        <img src="https://via.placeholder.com/400x200" alt="Video Thumbnail">
+        <p><strong>Project Title 1</strong><br/>A short description of the project or a link to the video.</p>
+      </div>
+      <div class="portfolio-item">
+        <img src="https://via.placeholder.com/400x200" alt="Video Thumbnail">
+        <p><strong>Project Title 2</strong><br/>Another description with context or style choices.</p>
+      </div>
+      <!-- Add more portfolio items as needed -->
+    </div>
+  </section>
+
+  <section class="contact">
+    <h2>Contact</h2>
+    <p>Email: <a href="mailto:you@example.com">you@example.com</a></p>
+    <p>Instagram: <a href="https://instagram.com/yourhandle" target="_blank">@yourhandle</a></p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Joshua Sadler</p>
+  </footer>
+
 </body>
 </html>
