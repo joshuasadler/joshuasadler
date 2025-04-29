@@ -12,8 +12,8 @@ body {
 }
 
 header {
-    background-color: #002F2F;
-    color: #ffffff;
+    background-color: #f0f0f0;
+    color: #004C4C;
     padding: 1rem;
     display: flex;
     justify-content: space-between;
@@ -23,12 +23,14 @@ header {
 
 header h1 {
     margin: 0;
+    color: #004C4C;
 }
 
 nav a {
-    color: #FFA500;
+    color: #004C4C;
     text-decoration: none;
     margin-left: 1rem;
+    font-weight: 600;
 }
 
 nav a:hover {
@@ -38,7 +40,7 @@ nav a:hover {
 .hero {
     text-align: center;
     padding: 3rem 1rem;
-    background-color: #CC8400;
+    background-color: #008080; /* Teal */
     color: #ffffff;
 }
 
@@ -52,8 +54,9 @@ nav a:hover {
 
 .portfolio {
     padding: 2rem 1rem;
-    background-color: #003737;
+    background-color: #CC8400; /* Mustard Orange */
     text-align: center;
+    color: #ffffff;
 }
 
 .video-grid {
