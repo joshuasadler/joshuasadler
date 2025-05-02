@@ -42,6 +42,8 @@ nav a:hover {
     padding: 3rem 1rem;
     background-color: #008080;
     color: #ffffff;
+    padding-left: 10%;
+    padding-right: 10%;
 }
 
 .video-container iframe {
@@ -74,6 +76,8 @@ nav a:hover {
     padding: 2rem 1rem;
     text-align: center;
     background-color: #004C4C;
+    padding-left: 5%;
+padding-right: 5%;
 }
 
 footer {
@@ -82,3 +86,21 @@ footer {
     background-color: #002F2F;
     color: white;
 }
+
+.video-wrapper {
+    position: relative;
+    width: 100%;
+    padding-top: 56.25%; /* 16:9 Aspect Ratio */
+    margin-bottom: 1rem;
+
+}
+
+.video-wrapper iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: none;
+}
+
